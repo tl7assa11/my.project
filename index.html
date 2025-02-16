@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Трекер посещаемости</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.firebase.com/js/client/3.1.0/firebase.js"></script>
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Трекер посещаемости</h1>
+        <label for="nameInput">Введите ваше имя:</label>
+        <input type="text" id="nameInput" placeholder="Ваше имя">
+        <button id="generateQRCodeButton">Создать QR-код</button>
+        <div id="qrcode"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
