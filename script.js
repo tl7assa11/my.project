@@ -1,6 +1,5 @@
 // Инициализация Firebase
 const firebaseConfig = {
-    apiKey: "AIzaSyBU48ZpxopqrwdgfrtJP0HPmTq_4nFdOG4",
     authDomain: "my-project-a8c50.firebaseapp.com",
     projectId: "my-project-a8c50",
     storageBucket: "my-project-a8c50.firebasestorage.app",
